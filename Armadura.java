@@ -1,6 +1,8 @@
 package jarvis;
 
 class Armadura {
+    private int codArmadura;
+    private String color = "Negro Rosita";
     private String colorPrimario;
     private String colorSecundario;
     private Bota botaIzquierda;
@@ -12,7 +14,7 @@ class Armadura {
     private int resistencia;
     private int salud; //0 a 100
     private Generador generador;
-
+    // esta muy feaaa
     // Constructor, getters y setters
 
     public Armadura(String colorPrimario, String colorSecundario, int resistencia, int salud) {
